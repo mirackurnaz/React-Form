@@ -49,7 +49,7 @@ function Sing() {
        {errors.password && touched.password && <div className='errors'>{errors.password}</div>}
         <br/>
        <br/>
-        <label htmlFor="passwordOnay">Password Onay <span>*</span></label>
+        <label htmlFor="passwordOnay">Password Confirmation <span>*</span></label>
         <br/>
        <input
          id="passwordOnay"
